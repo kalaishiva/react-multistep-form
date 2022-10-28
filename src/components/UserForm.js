@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import "../App.css";
 import FormUserDetails from './FormUserDetails';
+import FormPersonalDetails from './FormPersonalDetails';
 
 
 
@@ -22,8 +23,9 @@ const UserForm = () => {
           MultiStep Form
           </Typography>
       </AppBar>
-      <FormUserDetails />
-</Box>
+     <FormUserDetails />
+      <FormPersonalDetails />
+ </Box>
 
       
     

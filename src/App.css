@@ -13,8 +13,18 @@ body {
     color: rgb(6, 6, 155);
 }
 
-.MuiTypography-root .css-1juivf6-MuiTypography-root {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: '2.4rem';
-    font-weight: "600";
+.paperStyle {
+    padding: 20px;
+    height: 45vh;
+    width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 2px;
+}
+
+.button-div {
+    margin-right: 8px;
 }
